@@ -143,7 +143,11 @@
                     border: none;
                     font-weight: bold;
                     color: white;
+                    &:hover {
+                        transform: translateY(-5px);
+                    }
                 }
+
 
                 .bt {
                     padding: 15px 35px;
@@ -151,6 +155,9 @@
                     margin-left: 20px;
                     border: 0.5 px solid black;
                     font-weight: bold;
+                    &:hover {
+                        transform: translateY(-5px);
+                    }
                 }
             }
 
